@@ -8,8 +8,10 @@
   height: 100%;
   position: relative;
   flex: 1;
+  background-color: white;
   textarea {
     position: absolute;
+    background-color: white;
     font-family: 'QuidProSans-Regular', sans-serif;
     font-size: 2.5rem;
     @media (min-width: 768px) {
