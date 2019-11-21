@@ -25,7 +25,8 @@
     left: 0;
     bottom: 0;
     right: 0;
-    width: calc(100% - 20px);
+    max-width: 1080px;
+    width: 100%;
     &:focus {
       outline: none;
     }

@@ -15,6 +15,7 @@ $gold: #B09154;
 body {
   font-family: 'BFTinyHand-Regular', sans-serif;
   font-size: 18px;
+  background-color: white;
 }
 
 .capitalized {
@@ -26,20 +27,18 @@ body {
 }
 .main {
   position: relative;
-
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1280px;
   width: 100%;
-
-
 
   .wrapper {
     margin: 0 auto;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // bottom: 0;
-    // right: 0;
+    padding: 0 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
