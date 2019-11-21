@@ -1,12 +1,11 @@
 import React from 'react';
-import Seal from '../../Assets/seal.png';
+import Logo from '../../Assets/finalwordlogo.png';
 import './Header.scss';
 
 const Header = () => {
   return (
     <header className='header'>
-      <img src={Seal} alt='Presidential Seal' className='seal'/>
-      <h1 className='capitalized'>Aboard Air Force One</h1>
+      <img src={Logo} alt='Presidential Seal' className='seal'/>
     </header>
   )
 }
