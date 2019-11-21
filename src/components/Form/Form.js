@@ -22,6 +22,7 @@ export default class Form extends React.Component {
           placeholder='Start typing your stable genius note'
           wrap="hard"
           cols="75"
+          data-gramm="false"
           spellCheck={false}></textarea>
       </form>
     )

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.scss';
-import html2canvas from 'html2canvas';
 import htmlToImage from 'html-to-image';
 import { saveAs } from 'file-saver';
 
