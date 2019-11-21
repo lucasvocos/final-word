@@ -27,6 +27,9 @@
     right: 0;
     max-width: 1080px;
     width: 100%;
+    &::placeholder {
+      color: black;
+    }
     &:focus {
       outline: none;
     }
