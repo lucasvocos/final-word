@@ -8,10 +8,7 @@ const Footer = () => {
     window.location = Font
   }
   const downloadPoster = (e) => {
-
-
-    html2canvas(document.querySelector("#capture"), {
-    // html2canvas(document.body, {
+    html2canvas(document.querySelector('#capture'), {
       onrendered: function(canvas) {
         debugger;
         document.body.appendChild(canvas);
@@ -23,8 +20,7 @@ const Footer = () => {
       let image = new Image();
 	    image.src = canvas.toDataURL("image/png");
       document.body.appendChild(image);
-      // debugger;
-      // window.location = image
+
     })
 
   }
