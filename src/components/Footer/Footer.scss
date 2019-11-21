@@ -6,8 +6,10 @@
   position: fixed;
   bottom: 50px;
   justify-content: space-around;
-  left: 20px;
-  right: 20px;
+  @media (min-width: 1024px) {
+    left: 20px;
+    right: 20px;
+  }
   max-width: 1080px;
   // width: 100%;
   margin: 0 auto;
