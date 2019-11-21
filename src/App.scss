@@ -12,7 +12,12 @@
 
 $gold: #B09154;
 
-
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: white;
+}
 body {
   font-family: 'BFTinyHand-Regular', sans-serif;
   font-size: 18px;
