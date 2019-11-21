@@ -10,13 +10,13 @@
   flex: 1;
   textarea {
     position: absolute;
-    font-family: 'BFTinyHand-Regular', sans-serif;
-    font-size: 1.75rem;
+    font-family: 'QuidProSans-Regular', sans-serif;
+    font-size: 2.5rem;
     @media (min-width: 768px) {
-      font-size: 2rem;
+      font-size: 3.5rem;
     }
     @media (min-width: 1024px) {
-      font-size: 4rem;
+      font-size: 5.5rem;
     }
     padding: 10px;
     border: none;
@@ -27,6 +27,9 @@
     right: 0;
     max-width: 1080px;
     width: 100%;
+    &::placeholder {
+      color: black;
+    }
     &:focus {
       outline: none;
     }
