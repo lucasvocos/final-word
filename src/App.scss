@@ -14,4 +14,17 @@ $gold: #B09154;
 
 body {
   font-family: 'BFTinyHand-Regular', sans-serif;
+  font-size: 18px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  // padding-top: 80%;
+  // background-image: url('./Assets/1200x1500.png');
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  max-width: 40vw;
+  width: 100%;
+  // border: 1px solid $gold;
+  height: 80vh;
 }
