@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "BFTinyHand-Regular";
+
+  src: url("./Assets/BFTinyHand-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./Assets/BFTinyHand-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./Assets/BFTinyHand-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://use.typekit.net/wsa8cgx.css");
+
+$gold: #B09154;
+
+
+body {
+  font-family: 'BFTinyHand-Regular', sans-serif;
+}
