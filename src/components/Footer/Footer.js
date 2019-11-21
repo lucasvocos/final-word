@@ -2,25 +2,20 @@ import React from 'react';
 import './Footer.scss';
 import Font from '../../Assets/BFTinyHand-Regular.otf';
 import html2canvas from 'html2canvas';
+import htmlToImage from 'html-to-image';
+import { saveAs } from 'file-saver';
+
+
+
 
 const Footer = () => {
   const downloadFont = () => {
     window.location = Font
   }
   const downloadPoster = (e) => {
-    html2canvas(document.querySelector('#capture'), {
-      onrendered: function(canvas) {
-        debugger;
-        document.body.appendChild(canvas);
-      },
-      width: 1080,
-      height: 1350
-    })
-    .then(canvas => {
-      let image = new Image();
-	    image.src = canvas.toDataURL("image/png");
-      document.body.appendChild(image);
-
+    htmlToImage.toBlob(document.getElementById('capture'))
+    .then(blob => {
+      window.saveAs(blob, 'FinalWord.png')
     })
 
   }

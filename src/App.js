@@ -10,7 +10,6 @@ function App() {
       <div className='wrapper' id='capture'>
         <Header />
         <Form />
-
       </div>
       <Footer />
     </main>
