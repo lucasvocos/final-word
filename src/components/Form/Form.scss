@@ -1,0 +1,20 @@
+@import '../../App.scss';
+
+.hidden {
+  display: none;
+}
+
+.tiny-hands-form {
+  height: 100%;
+  textarea {
+    width: 100%;
+    font-family: 'BFTinyHand-Regular', sans-serif;
+    font-size: 4rem;
+    border: none;
+    resize: none;
+    height: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+}
