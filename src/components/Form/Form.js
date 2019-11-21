@@ -15,7 +15,7 @@ export default class Form extends React.Component {
     return (
       <form id='capture' className='tiny-hands-form' ref={this.textInput}>
         <label htmlFor='notepad' className='hidden'>Note</label>
-        <textarea name='notepad' className='notepad' autoFocus placeholder='Quid pro quo'></textarea>
+        <textarea name='notepad' className='notepad' autoFocus placeholder='I KNOW NOTHING I KNOW NOTHING '></textarea>
       </form>
     )
   }

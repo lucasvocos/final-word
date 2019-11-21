@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "capture-phantomjs": "^1.4.5",
     "html2canvas": "^1.0.0-rc.5",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",

@@ -17,14 +17,31 @@ body {
   font-size: 18px;
 }
 
-.wrapper {
+.capitalized {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  color: $gold;
+}
+.main {
+  position: relative;
+
   margin: 0 auto;
-  // padding-top: 80%;
-  // background-image: url('./Assets/1200x1500.png');
-  // background-size: contain;
-  // background-repeat: no-repeat;
-  max-width: 40vw;
+  max-width: 1080px;
   width: 100%;
-  // border: 1px solid $gold;
-  height: 80vh;
+
+
+
+  .wrapper {
+    margin: 0 auto;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
+    // right: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 }
