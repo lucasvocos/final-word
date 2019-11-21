@@ -6,13 +6,19 @@
 
 .tiny-hands-form {
   height: 100%;
+  position: relative;
+  flex: 1;
   textarea {
-    width: 100%;
+    position: absolute;
     font-family: 'BFTinyHand-Regular', sans-serif;
     font-size: 4rem;
     border: none;
     resize: none;
-    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
     &:focus {
       outline: none;
     }
