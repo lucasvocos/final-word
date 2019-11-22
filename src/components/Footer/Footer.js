@@ -8,7 +8,7 @@ import { saveAs } from 'file-saver';
 
 const Footer = () => {
   const downloadFont = () => {
-    window.location = `https://jkrglobalnewyork.ftpstream.com/439032/3a9b02877e6e932dba6699ae7690e48b/QuidProSans-Regular.otf`
+    window.location = `https://drive.google.com/uc?export=download&id=1q9xPoqFpQ4ifEeZg8vuVa4p7RWZnze5Z`
   }
   const downloadPoster = (e) => {
     const notepad = document.querySelector('.notepad')
