@@ -19,7 +19,7 @@ export default class Form extends React.Component {
           name='notepad'
           className='notepad'
           autoFocus
-          placeholder='Start typing your stable genius note'
+          placeholder='Start typing your stable geniu s note'
           wrap="hard"
           cols="75"
           data-gramm="false"

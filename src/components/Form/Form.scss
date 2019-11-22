@@ -31,6 +31,7 @@
     width: 100%;
     &::placeholder {
       color: black;
+      letter-spacing: -.125rem;
     }
     &:focus {
       outline: none;
