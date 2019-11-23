@@ -12,10 +12,12 @@ const Footer = () => {
   }
   const downloadPoster = (e) => {
     const notepad = document.querySelector('.notepad')
+    let origValue = notepad.value
     notepad.value += '\nThis is the final word from the pres of the u.s.'
     htmlToImage.toBlob(document.getElementById('capture'))
     .then(blob => {
       window.saveAs(blob, 'FinalWord.png')
+      notepad.value = origValue
     })
 
   }
