@@ -10,6 +10,7 @@
   flex: 1;
   background-color: white;
   textarea {
+    padding: 0 50px;
     position: absolute;
     background-color: white;
     font-family: 'QuidProSans-Regular', sans-serif;
@@ -20,7 +21,7 @@
     @media (min-width: 1024px) {
       font-size: 5.5rem;
     }
-    padding: 0 20px;
+    // padding: 0 20px;
     border: none;
     resize: none;
     top: 0;
