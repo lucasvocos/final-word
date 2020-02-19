@@ -2,6 +2,8 @@ import React from 'react';
 import './Footer.scss';
 import htmlToImage from 'html-to-image';
 import saveAs from 'file-saver';
+import SVG from './QUIDPROQUOSANS.svg'
+import PNG from './QUIDPROQUOSANS.png'
 
 const Footer = () => {
 
@@ -19,16 +21,25 @@ const Footer = () => {
     const wrapper = document.getElementById('capture')
     let origHeight = notepad.offsetHeight
     wrapper.style.minHeight = wrapper.offsetWidth + 'px'
+    wrapper.style.backgroundColor = 'white'
     
     
-    const link = document.createElement('p')
-    link.innerText = 'QUIDPROQUOSANS.COM'
-    link.classList.add('capitalized')
-    link.style.textAlign = 'center'
+    
+    const link = document.createElement('IMG')
     link.style.backgroundColor = 'white'
-    link.style.paddingBottom = '50px'
-    link.style.fontFamily = "proxima-nova, sans-serif"
+    link.style.textAlign = 'center'
+    link.style.width = 'auto'
+    link.style.height = '18px'
+    link.style.left = '25%'
+    link.style.right = '25%'
+    link.style.marginBottom = '50px'
+    link.style.zIndex = 9
+    link.src = SVG
+    link.classList.add('download')
+
+    
     wrapper.appendChild(link)
+    
     
     
     htmlToImage.toBlob(wrapper)
