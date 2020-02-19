@@ -1,0 +1,16 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://www.quidprosans.com/* https://www.quidproquosans.com/:splat 301!
+https://quidprosans.com/* https://www.quidproquosans.com/:splat 301!
+https://trumpnotegenerator.com/* https://www.quidproquosans.com/:splat 301!
+https://www.trumpnotegenerator.com/* https://www.quidproquosans.com/:splat 301!
+https://www.trumpsnotes.com/* https://www.quidproquosans.com/:splat 301!
+https://trumpsnotes.com/* https://www.quidproquosans.com/:splat 301!
+https://www.finalwordfrompres.com/* https://www.quidproquosans.com/:splat 301!
+https://finalwordfromthepres.com/* https://www.quidproquosans.com/:splat 301!
+https://quidproquosans.com/* https://www.quidproquosans.com/:splat 301!
+https://www.finalwordfromthepres.com/* https://www.quidproquosans.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://tiny-hands.netlify.com/* https://www.quidproquosans.com/:splat 301!
