@@ -18,17 +18,16 @@ const Footer = () => {
 
     const wrapper = document.getElementById('capture')
     let origHeight = notepad.offsetHeight
-    wrapper.style.height = wrapper.offsetWidth + 'px'
+    wrapper.style.minHeight = wrapper.offsetWidth + 'px'
     
     
     const link = document.createElement('p')
-    link.innerText = 'FINALWORDFROMTHEPRES.COM'
+    link.innerText = 'QUIDPROQUOSANS.COM'
     link.classList.add('capitalized')
     link.style.textAlign = 'center'
     link.style.backgroundColor = 'white'
     link.style.paddingBottom = '50px'
-    link.style.fontFamily = 'Proxima Nova'
-    
+    link.style.fontFamily = "proxima-nova, sans-serif"
     wrapper.appendChild(link)
     
     
@@ -37,7 +36,7 @@ const Footer = () => {
       window.saveAs(blob, 'FinalWord.png')
       notepad.value = origValue
       wrapper.removeChild(link)
-      wrapper.style.height = origHeight + 'px'
+      wrapper.style.minHeight = origHeight + 'px'
     })
 
   }
