@@ -19,7 +19,7 @@ export default class Form extends React.Component {
     const wrapper = document.getElementById('capture')
     const notepad = document.querySelector('.notepad')
     
-    if (notepad.scrollHeight > 768) {
+    if (notepad.scrollHeight > 568) {
       wrapper.style.height = `1px`
       wrapper.style.height = `${notepad.scrollHeight + 125}px`
       wrapper.style.minHeight = `${notepad.scrollHeight + 125}px`
