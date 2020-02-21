@@ -8,7 +8,7 @@ import PNG from './QUIDPROQUOSANS.png'
 const Footer = () => {
 
   const downloadFont = () => {
-    window.location = `https://drive.google.com/uc?export=download&id=1q9xPoqFpQ4ifEeZg8vuVa4p7RWZnze5Z`
+    window.location = `https://drive.google.com/uc?export=download&id=1Hphp9SyZFxy2i4Sk_zP7iesJ6QQF2mBZ`
   }
 
   const downloadPoster = (e) => {
